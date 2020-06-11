@@ -1,40 +1,32 @@
-def addition(5, 4)
-  num1= 5 
-  num2= 4
+def addition(num1, num2)
  num1 + num2 
 end
 
-def subtraction(10, 5)
-  num1 = 10
-  num2 = 5
+def subtraction(num1,num2)
+
    num1-num2
 
 end
 
-def division(50, 2)
-  num1 = 50
-  num2= 2  
+def division(num1, num2)
+  
    num1/num2 
 
 end
 
-def multiplication(4, 30)
-  num1 = 4
-  num2 = 30 
+def multiplication(num1, num2)
    num1*num2 
 
 end
 
-def modulo(34, 5)
-  num1 = 34
-  num2 = 5
+def modulo(num1, num2)
+  
    num1 % num2
 
 end
 
-def square_root(9, 2)
-  num1 = 9
-  num2 = 2 
-   num1 ** num2
+def square_root(num1)
+  Math.sqrt(num1)
+  
 
 end
