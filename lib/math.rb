@@ -32,7 +32,7 @@ def modulo(34, 5)
 
 end
 
-def square_root(num)
+def square_root(9, 2)
   num1 = 9
   num2 = 2 
    num1 ** num2
